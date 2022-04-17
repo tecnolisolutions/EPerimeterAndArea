@@ -1,4 +1,17 @@
-import sys
+from src.modelo.rectangle import Rectangle
 
-if __name__ == '__main__':
-    # Punto inicial de la aplicación
+a = Rectangle(name="r1", lenght=1,width=2)
+
+print(a.nombre)
+print(a.perimeter)
+print(a.area)
+
+
+
+
+
+
+
+
+
+
